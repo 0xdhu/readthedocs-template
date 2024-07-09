@@ -31,11 +31,7 @@ Here, the ``authority`` parameter is user's wallet address connected to dapp.
 .. autoexception:: sdk.InvalidKindError
 
 For example:
+''''''
 
-import SbrSol from "sbrsol-sdk";
-const sdk = SbrsolSDK.load({
-   cluster,
-   provider
-});
-const userAccountData = await sdk.sbrsolState.getUserAccountData(wallet_pub);
+.. literalinclude:: ../examples/simple.ts
 
