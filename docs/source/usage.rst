@@ -6,7 +6,7 @@ Usage
 Installation
 ------------
 
-To use SbrSol, first install it using npm or  yarn:
+To use SbrSol sdk, first install it using npm or yarn inside your project:
 
 .. code-block:: console
 
@@ -21,20 +21,21 @@ or
 Creating recipes
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+To get data of cbs user's data,
+you can use the ``sdk.sbrsolState.getUserAccountData(authority)`` function:
 
-.. autofunction:: lumache.get_random_ingredients
+.. autofunction:: sdk.sbrsolState.getUserAccountData(authority)
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+Here, the ``authority`` parameter is user's wallet address connected to dapp.
 
-.. autoexception:: lumache.InvalidKindError
+.. autoexception:: sdk.InvalidKindError
 
 For example:
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+import SbrSol from "sbrsol-sdk";
+const sdk = SbrsolSDK.load({
+   cluster,
+   provider
+});
+const userAccountData = await sdk.sbrsolState.getUserAccountData(wallet_pub);
 
