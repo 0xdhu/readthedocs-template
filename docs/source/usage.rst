@@ -6,11 +6,17 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use SbrSol, first install it using npm or  yarn:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   $ npm install --save sbrsol-sdk
+
+or
+
+.. code-block:: console
+
+   $ yarn add sbrsol-sdk
 
 Creating recipes
 ----------------
