@@ -1,4 +1,4 @@
-Modules & Methods
+Modules & methods
 ==========
 
 .. toctree::

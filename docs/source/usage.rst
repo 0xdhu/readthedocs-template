@@ -27,9 +27,15 @@ For example:
 
 .. literalinclude:: ../examples/init.ts
 
+Fetch data
+----------------
+
 There is another example about how to read the data from program using sdk.
 
 .. literalinclude:: ../examples/readable.ts
+
+Build instruction
+----------------
 
 There is another example about how to build transaction instructions and sign on transaction using sdk.
 

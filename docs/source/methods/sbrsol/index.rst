@@ -1,9 +1,8 @@
 SbrSol module
 ==========
 
-.. literalinclude:: ./sbrsolpda.rst
-
 .. toctree::
+  sbrsolpda
   sbrsolstate
   sbrsolcbs
   sbrsolpsm
