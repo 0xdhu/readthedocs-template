@@ -1,4 +1,4 @@
-clss SbrSolCBS
+class SbrSolCBS
 --------------
 The `SbrSolCBS` class handles various operations related to CBS in SbrSol program.
 
