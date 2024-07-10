@@ -18,20 +18,12 @@ or
 
    $ yarn add sbrsol-sdk
 
-Creating recipes
+Initialization
 ----------------
 
-To get data of cbs user's data,
-you can use the ``sdk.sbrsolState.getUserAccountData(authority)`` function:
-
-.. autofunction:: sdk.sbrsolState.getUserAccountData(authority)
-
-Here, the ``authority`` parameter is user's wallet address connected to dapp.
-
-.. autoexception:: sdk.InvalidKindError
+To use this sdk, you need to import npm package and create an instance of sdk with solana connection and provider.
 
 For example:
-''''''
 
-.. literalinclude:: ../examples/simple.ts
+.. literalinclude:: ../examples/init.ts
 

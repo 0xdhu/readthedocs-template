@@ -1,7 +1,11 @@
-API
+Methods
 ===
 
 .. autosummary::
    :toctree: generated
 
-   lumache
+   sbrsol-sdk methods
+
+
+
+
