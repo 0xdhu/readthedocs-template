@@ -1,5 +1,5 @@
 Interfaces
-----------
+==========
 
 .. _fetchTotalSupplyParams:
 
