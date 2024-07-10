@@ -1,2 +1,5 @@
 NLPStaking instructions
 ==========
+
+Installation
+------------
