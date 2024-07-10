@@ -21,9 +21,16 @@ or
 Initialization
 ----------------
 
-To use this sdk, you need to import npm package and create an instance of sdk with solana connection and provider.
+To use this sdk in your code, you need to import npm package and create an instance of sdk with solana connection and provider.
 
 For example:
 
 .. literalinclude:: ../examples/init.ts
 
+There is another example about how to read the data from program using sdk.
+
+.. literalinclude:: ../examples/readable.ts
+
+There is another example about how to build transaction instructions and sign on transaction using sdk.
+
+.. literalinclude:: ../examples/writable.ts

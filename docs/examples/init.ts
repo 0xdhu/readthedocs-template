@@ -1,6 +1,6 @@
-import SbrSolSDK, { UserAccountData } from "sbrsol-sdk";
+import SbrSolSDK from "sbrsol-sdk";
 import { SignerWallet, SolanaProvider } from '@saberhq/solana-contrib';
-import { Keypair, Connection, PublicKey } from '@solana/web3.js';
+import { Keypair, Connection } from '@solana/web3.js';
 
 const cluster = 'devnet';
 const connection = new Connection("https://api.devnet.solana.com");
@@ -10,13 +10,8 @@ const provider = SolanaProvider.init({
   wallet: randomSigner,
 })
 
-const getUserData = async (authority: PublicKey): Promise<UserAccountData> => {
-
-  const sdk = SbrSolSDK.load({
-    cluster,
-    provider
-  });
-  const state = sdk.sbrSolState;
-
-  return await state.getUserAccountData(authority);
-}
+const sdk = SbrSolSDK.load({
+  cluster,
+  provider
+});
+const { sbrSolState, sbrSolPda, sbrSolCBS, sbrSolPSM } = sdk;
