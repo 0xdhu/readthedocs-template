@@ -1,5 +1,7 @@
-NLPStaking module
+NLPStaking modules
 ==========
+
+.. literalinclude:: ../../../examples/nlpstaking.module.ts
 
 .. toctree::
   nlpstakingpda
