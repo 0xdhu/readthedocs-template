@@ -3,7 +3,8 @@ SbrSolPDA module
 
 The `SbrSolPDA` class provides methods to generate Program Derived Addresses (PDAs) for various purposes within the SbrSol program.
 
-.. class:: SbrSolPDA
+Class SbrSolPDA
+---------------
 
    Methods
    -------
