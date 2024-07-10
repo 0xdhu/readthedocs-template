@@ -7,6 +7,7 @@ For example
 .. literalinclude:: ../../../examples/sbrsol.module.ts
 
 .. toctree::
+  interfaces
   sbrsolpda
   sbrsolstate
   sbrsolcbs
